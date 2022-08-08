@@ -90,7 +90,7 @@ public class Student {
 
 	@Override  //source -generate toString
 	public String toString() {
-		return String.format("%-10s%10s%5d%5d%5d5d/t/t%5d%8.2f%5c",
+		return String.format("%-10s%10s%5d%5d%5d%5d/t/t%5d%8.2f%5c",
 				hakbun, name, kor, eng, mat, edp, tot, avg, grede);
 	}
 	
